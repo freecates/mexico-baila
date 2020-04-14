@@ -279,7 +279,7 @@ const Video = props => (
 
 Video.getInitialProps = async function(context) {
   const { id } = context.query
-  const apiKey = 'AIzaSyAjze8m-r61sJcLz0yeN2D9g-qBzd7ffoA'
+  const apiKey = process.env.YOUTUBE_APY_KEY
   const res = await fetch(
     `https://www.googleapis.com/youtube/v3/videos?part=player&id=${id}&key=${apiKey}`
   )

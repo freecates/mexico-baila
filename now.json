@@ -19,5 +19,13 @@
     { "src": "/robots.txt", "dest": "/static/robots.txt" },
     { "src": "/sitemap.xml", "dest": "/static/sitemap.xml" }
   ],
+  "env": {
+    "YOUTUBE_APY_KEY": "@youtube-apy-key"
+  },
+  "build": {
+    "env": {
+      "YOUTUBE_APY_KEY": "@youtube-apy-key"
+    }
+  },
   "name": "MexicoBaila"
 }

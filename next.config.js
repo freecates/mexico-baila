@@ -26,6 +26,9 @@ const nextConfig = {
       }
     ]
   },
+  env: {
+    YOUTUBE_APY_KEY: process.env.YOUTUBE_APY_KEY,
+  },
   target: 'serverless',
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
