@@ -20,6 +20,7 @@ const StyleHeader = styled.header`
     position: fixed;
     width: 100%;
     z-index: 3000;
+    text-transform: uppercase;
   }
   ul {
     display: flex;
