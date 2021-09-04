@@ -6,7 +6,7 @@ const Logo = () => (
         <Link href='/'>
             <a title='Inicio'>
                 <img
-                    src='/static/logo-mexico-baila.png'
+                    src='/logo-mexico-baila.png'
                     alt='Logo Mexico Baila'
                     width='200'
                     height='200'

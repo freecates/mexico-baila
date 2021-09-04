@@ -121,7 +121,7 @@ const Video = props => (
        "name": "México Baila",
        "logo": {
          "@type": "ImageObject",
-         "url": "https://www.mexicobaila.com/static/icons/android-chrome-512x512.png"
+         "url": "https://www.mexicobaila.com/icons/android-chrome-512x512.png"
        }
       }, 
       "description": "${props.videoDetails.items[0].snippet.description}",

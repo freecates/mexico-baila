@@ -19,7 +19,7 @@ const Nav = (props) => (
                     <Link href='/'>
                         <a title='Inicio'>
                             <img
-                                src='/static/logo-mexico-baila-footer.png'
+                                src='/logo-mexico-baila-footer.png'
                                 alt='Logo Mexico Baila'
                                 width='75'
                                 height='75'

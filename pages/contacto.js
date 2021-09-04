@@ -20,7 +20,7 @@ const Contacto = ({ data }) => (
       "@context": "https://schema.org",
       "@type": "Organization",
       "url": "https://www.mexicobaila.com",
-      "logo": "https://mexicobaila.com/static/icons/android-chrome-512x512.png",
+      "logo": "https://mexicobaila.com/icons/android-chrome-512x512.png",
       "contactPoint": [{
         "@type": "ContactPoint",
         "telephone": "${data.tel}",

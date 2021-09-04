@@ -52,7 +52,7 @@ export default function Page(props) {
         {props.children}
         <Footer />
         <GlobalStyles />
-        <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
+        <link rel="stylesheet" type="text/css" href="/nprogress.css" />
       </StyledPage>
     </ThemeProvider>
   )

@@ -30,7 +30,7 @@ const ElGrupo = ({ data }) => (
             "name": "México Baila",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://mexicobaila.com/static/icons/android-chrome-512x512.png"
+              "url": "https://mexicobaila.com/icons/android-chrome-512x512.png"
                 }
               }, 
             "image": "${data.images[0].src}"
