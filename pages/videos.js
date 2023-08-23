@@ -180,7 +180,7 @@ const Videos = ({ videos, latestVideos, data }) => (
 export const getStaticProps = async () => {
     const res = await fetch(`https://mexicobailadata.now.sh/videos.json`);
     const videosNoOK = await res.json();
-    const res2 = await fetch(`https://mexicobailadata.now.sh/paginavideos.json`);
+    const res2 = await fetch(`https://mexico-baila-data.vercel.app/data/paginavideos.json`);
     const data = await res2.json();
     const today = new Date();
     const yyyy = today.getFullYear();
