@@ -106,7 +106,7 @@ const Servicios = ({ data }) => (
 );
 
 export const getStaticProps = async () => {
-    const res = await fetch(`https://mexicobailadata.now.sh/servicios.json`);
+    const res = await fetch(`https://mexico-baila-data.vercel.app/data/servicios.json`);
     const data = await res.json();
     return {
         props: { data },
